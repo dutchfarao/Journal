@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputActivity">
+
+    <EditText
+        android:id="@+id/InputContent"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:hint="Fire away!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InputHeader" />
+
+    <EditText
+        android:id="@+id/InputHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:hint="Describe how you feel in one word."
+        app:layout_constraintBottom_toTopOf="@+id/InputContent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/InputButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="Submit!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout" />
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:columnCount="4"
+        app:layout_constraintBottom_toTopOf="@+id/InputButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InputContent"
+        app:rowCount="1">
+
+        <ImageButton
+            android:id="@+id/InputMood1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/mood1"
+            android:drawableLeft="@android:drawable/ic_menu_edit"
+            android:drawablePadding="6dp"
+            android:onClick="mood1"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="207dp" />
+
+        <ImageButton
+            android:id="@+id/InputMood2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/mood2"
+            android:drawableLeft="@android:drawable/ic_menu_edit"
+            android:drawablePadding="6dp"
+            android:onClick="mood2"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="526dp" />
+
+        <ImageButton
+            android:id="@+id/InputMood3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/mood3"
+            android:drawableLeft="@android:drawable/ic_menu_edit"
+            android:drawablePadding="6dp"
+            android:onClick="mood3"
+            tools:layout_editor_absoluteX="222dp"
+            tools:layout_editor_absoluteY="526dp"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <ImageButton
+            android:id="@+id/InputMood4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/mood4"
+            android:drawableLeft="@android:drawable/ic_menu_edit"
+            android:drawablePadding="6dp"
+            android:onClick="mood4"
+            tools:layout_editor_absoluteX="299dp"
+            tools:layout_editor_absoluteY="527dp" />
+    </android.support.v7.widget.GridLayout>
+</android.support.constraint.ConstraintLayout>
