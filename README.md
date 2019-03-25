@@ -7,11 +7,11 @@ Journal is an android app where users can keep track of their feelings, with add
 Click the little Kim in the buttom right and add a new feeling with comments, don't forget to select the appropriate Kim Jong Un face!
 # Screenhots
 
-![ScreenShot1](https://github.com/dutchfarao/journal/blob/master/doc/Screenshot_1.png)
+<img src="https://github.com/dutchfarao/journal/blob/master/doc/Screenshot_1.png" width="200" height="400" /> 
 
-![ScreenShot2](https://github.com/dutchfarao/journal/blob/master/doc/Screenshot_2.png)
+<img src="https://github.com/dutchfarao/journal/blob/master/doc/Screenshot_2.png" width="200" height="400" /> 
 
-![ScreenShot3](https://github.com/dutchfarao/journal/blob/master/doc/Screenshot_3.png)
+<img src="https://github.com/dutchfarao/journal/blob/master/doc/Screenshot_3.png" width="200" height="400" /> 
 
 
 ```
