@@ -21,6 +21,10 @@ Click the little Kim in the buttom right and add a new feeling with comments, do
 
 <img src="https://github.com/dutchfarao/journal/blob/master/doc/Screenshot_3.png" width="200" height="400" /> 
 
+<img src="https://github.com/dutchfarao/journal/blob/master/doc/Screenshot_4.png" width="200" height="400" /> 
+
+<img src="https://github.com/dutchfarao/journal/blob/master/doc/Screenshot_5.png" width="200" height="400" /> 
+
 
 ```
 ## Credits
